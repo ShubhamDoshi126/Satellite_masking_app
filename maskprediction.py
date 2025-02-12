@@ -16,7 +16,7 @@ model_path = "satellite_segmentation.pth"
 
 # Download model if not present
 if not os.path.exists(model_path):
-    url = "https://drive.google.com/uc?id=1A2B3C4D5E6F7G8H9"  # Replace with your actual file ID
+    url = "https://drive.google.com/uc?id=1-BgqRVrj7h4wrzH7pkk2lmeX_ij1SQkh" # Replace with your actual file ID
     try:
         gdown.download(url, model_path, quiet=False)
         print("✅ Model downloaded successfully!")
