@@ -1,0 +1,8 @@
+streamlit
+torch
+opencv-python
+pillow
+segmentation-models-pytorch
+albumentations
+numpy
+streamlit-drawable-canvas
